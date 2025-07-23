@@ -1,13 +1,13 @@
 .box-sizeing{
     background-color: palegreen;
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 780px;
     margin: auto;
 
 
     /* using grid */
-    display: grid;
-    place-content: center;
+    /* display: grid; */
+    /* place-content: center; */
 
 
 
@@ -15,23 +15,60 @@
 
 
     /* using flex */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* gap: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 70px;
 }
 .content-box{
     background-color: brown;
     height: 200px;
     width: 300px;
+    box-sizing: content-box;
+    padding: 50px;
 
 
 
 }
-/* .boder-box{ */
+.boder-box{
     background-color: rgb(78, 29, 156);
     height: 200px;
     width: 300px;
+    box-sizing: border-box;
+     padding: 50px;
+
+
+
+}
+/* z position bd flag */
+
+
+
+
+
+.flag-green{
+    height: 300px;
+    width: 500px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.flag-red{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    
+
 
 
 
