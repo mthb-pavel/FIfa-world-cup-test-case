@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Banner style */
@@ -16,6 +17,8 @@
   color: #ffffff;
   background-color: #dd0000;
   border-radius: 5px;
+  padding: 10px 12px;
+  border: none;
 }
 
 .banner {
@@ -24,9 +27,11 @@
   background-color: #161616;
   color: #ffffff;
   border-radius: 15px;
+  margin: 50px auto;
 }
 
 .banner-left {
+  padding: 35px;
 }
 .banner-right {
 }
@@ -36,10 +41,26 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #ffffff;
   margin-bottom: 19px;
+  line-height: 70px;
   /* padding-left: 10px; */
 }
 .banner p {
   color: #ffffff;
   margin-bottom: 30px;
   /* padding-left: 10px; */
+  max-width: 70%;
+}
+.banner-right img {
+  display: block;
+}
+/* upcoming match */
+
+.upcoming-matchs {
+  display: flex;
+}
+.upcoming-match-left {
+  background-color: aquamarine;
+}
+.upcoming-match-right {
+  background-color: bisque;
 }
